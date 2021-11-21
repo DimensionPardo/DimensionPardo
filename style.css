@@ -1,0 +1,186 @@
+.menu {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 1; /* Position the navbar at the top of the page */
+  width: 99.5%; /* Full width */
+  border-radius: 15px;
+  animation-name: fadein;
+  animation-duration: 2s;
+  z-index: 10;
+}
+
+/* Links inside the navbar */
+.menu a {
+  float: left;
+  margin-top: 10px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+.menu a:hover {
+	color: white;
+	background-color: blue;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.youtube{
+	padding-top: 30px;
+	padding-left: 415px;
+}
+
+#logo{
+	padding-left: 10px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+#pablo{
+	width:25%;
+	padding-left: 8%;
+	animation-name: leftappear;
+	animation-duration: 2s;
+	filter: drop-shadow(15px 15px 7px rgba(0,0,0,0.8));
+}
+
+#presentation{
+	float: right;
+	width: 50%;
+	font-size: 300%;
+	padding-right: 10%;
+	padding-top: 10%;
+	animation-name: rightappear;
+	animation-duration: 2s;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes leftappear{
+	from {margin-left: -500px;transform: rotate(-45deg);}
+	to{margin-left: 0px;transform: rotate(0deg);}
+}
+
+@keyframes rightappear{
+	from {margin-right: -500px;transform: rotate(-45deg);}
+	to{margin-right: 0px;transform: rotate(0deg);}
+}
+
+body{
+	background: linear-gradient(90deg,rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 200%;
+}
+
+
+
+#filmora-logo{
+	width: 125px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+#dr17{
+	width: 150px;
+}
+
+#blender-logo{
+	width: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+h3{
+	font-size: 300%;
+	margin-bottom:-5px;
+}
+
+button {
+  border-radius: 10px;
+  background: linear-gradient(180deg,rgb(255, 196, 0) 0%, rgb(255, 115, 0) 100%);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  vertical-align: middle;
+}
+
+button span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#davinci-resolve{
+display: inline-block;
+padding-left: 5%;
+text-align: center;
+}
+
+#filmora{
+display: inline-block;
+padding-left: 15%;
+text-align: center;
+}
+
+#blender{
+	display: inline-block;
+	text-align: center;
+	padding-left: 15%;
+}
+
+#davinci-resolve-crack{
+display: inline-block;
+padding-left: 5%;
+text-align: center;
+}
+
+#filmora-crack2{
+display: inline-block;
+padding-left: 5%;
+text-align: center;
+}
+
+#filmora-crack1{
+	display: inline-block;
+	text-align: center;
+	padding-left: 6%;
+}
+
