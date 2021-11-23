@@ -35,7 +35,7 @@
 
 .youtube{
 	padding-top: 30px;
-	padding-left: 415px;
+	padding-left: 630px;
 }
 
 #logo{
@@ -47,7 +47,7 @@
 }
 
 #pablo{
-	width:25%;
+	width: 20%;
 	padding-left: 8%;
 	animation-name: leftappear;
 	animation-duration: 2s;
@@ -56,7 +56,7 @@
 
 #presentation{
 	float: right;
-	width: 50%;
+	width: 40%;
 	font-size: 300%;
 	padding-right: 10%;
 	padding-top: 10%;
@@ -184,3 +184,42 @@ text-align: center;
 	padding-left: 6%;
 }
 
+h2{
+	font-size: 300%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#discord{
+	text-align: right;
+	padding-right: 20%;
+}
+
+
+#discordbutton{
+	position: inherit;
+	margin-right: auto;
+	z-index: 6;
+}
+
+#discordlogo{
+	display: inline-block;
+	text-align: right;
+	width: 200px;
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 30px;
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+pre {
+	width: 40%;
+	padding-left: 50px;
+}
+
+code{font-size: 150%;}
