@@ -97,6 +97,13 @@ h1{
 	position: relative;
 }
 
+#photoshop-logo{
+	width: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
 #dr17{
 	width: 150px;
 }
